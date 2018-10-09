@@ -33,3 +33,50 @@ const letterCount = () =>{
 	const value = document.getElementById("input1").value.length;
 	span.innerHTML = value + ((value > 1 || value === 0) ? " letters." : " letter.");
 }
+
+const convertIntoLeet = () => {
+	const input = document.getElementById("input2").value;
+	const dictionary = {
+		"a": "4",
+		"b": "6",
+		"c": "( ",
+		"d": "[)",
+		"e": "3",
+		"f": "]=",
+		"g": "&",
+		"h": "#",
+		"i": "!",
+		"j": ",|",
+		"k": "]{",
+		"l": "L",
+		"m": "(\\/)",
+		"n": "(\\)",
+		"o": "( )",
+		"p": "P",
+		"q": "Q",
+		"r": "9",
+		"s": "$",
+		"t": "7",
+		"u": "(_)",
+		"v": "\\/",
+		"w": "'//",
+		"x": "%",
+		"y": "'/",
+		"z": "\"/_"
+
+	}
+	let result = "";
+
+	//For each character in input, search if dictionary has an key for it. If so, add the key's value to the result. If not, add the character itself.
+	Array.from(input).forEach(function(c){
+		if (dictionary.hasOwnProperty(c.toLowerCase())){ //.toLowerCase() avoids duplicating keys in uppercase.
+			result += dictionary[c.toLowerCase()];
+		} else if (c === " ") {
+			result += "<br>";
+		} else {
+			result += c;
+		}
+	});
+
+	document.getElementById("result2").innerHTML = result;
+}

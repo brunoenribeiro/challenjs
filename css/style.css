@@ -6,44 +6,65 @@
 	padding: 0;
 }
 
-h1,p,textarea,button,span{
+body{
+	padding: 20px;
+}
+
+h1,p,textarea,button,span,footer{
 	font-family: "Open Sans", sans-serif;
 }
 
-.header{
+header{
 	height: 260px;
 	background-color: cornflowerblue;
 	text-align: center;
 	display: flex;
 	display: -webkit-flex;
 	align-items: center;
+	margin: 0 auto;
+	border-radius: 3px;
 }
 
-.header div{
+header div{
 	margin: 0 auto;
 }
 
-.header h1{
+header h1{
 	font-family: "Niramit", sans-serif;
 	text-transform: uppercase;
 	font-size: 36px;
 }
 
-.header p{
+header p{
 }
 
 .toy{
-	margin: 30px 20px;
+	width: 720px;
+	margin: 30px auto;
+	clear: both;
+	text-align: center;
 }
 
-.toy div{
+.toy .left{
 	float: left;
-	margin: 10px 20px 0 0;
+	margin: 10px 0;
+	text-align: left;
+}
+
+.toy .right{
+	float: right;
+	margin: 10px 0;
+}
+
+.toy .bottom{
+	clear: both;
+	width: 200px;
+	margin: 0 auto;
 }
 
 .toy textarea{
-	width: 300px;
-	height: 200px;
+	width: 340px;
+	height: 140px;
 	padding: 6px;
 	border-radius: 3px;
 }
@@ -54,14 +75,24 @@ h1,p,textarea,button,span{
 }
 
 .toy .result{
-	width: 300px;
-	height: 200px;
+	width: 340px;
+	height: 140px;
 	border: 1px solid;
 	text-align: center;
 	vertical-align: center;
 	padding: 6px;
 	border-radius: 3px;
 	margin: 0;
+	overflow: hidden;
+}
+
+.toy .result:hover{
+	overflow: scroll;	
+}
+
+.toy .action{
+	width: 200px;
+	margin: 10px auto;
 }
 
 .toy button{
@@ -73,4 +104,22 @@ h1,p,textarea,button,span{
 	text-decoration: none;
 	border-radius: 3px;
 	margin: 6px 0;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+footer{
+	height: 60px;
+	background-color: cornflowerblue;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 3px;
+	font-size: 10px;
+	line-height: 60px;
 }

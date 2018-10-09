@@ -7,28 +7,51 @@
 </head>
 <body>
 
-	<div class="header">
+	<header>
 		<div>
 			<h1>Fun with words!</h1>
 			<p>Small toys made with JS</p>
 		</div>
-	</div>
+	</header>
 	
-
+	<!-- Toy #1: Word Pyramid -->
 	<div class="toy">
 		<h1>Toy 1: Word Pyramid</h1>
 		<p>Create a pyramid using a word with odd ammount of letters!</p>
 
-		<div>
+		<div class="left">
 			<textarea id="input1" placeholder="Input a word." onkeyup="letterCount()"></textarea><br>
 			<span class="lettercount" id="lettercount1">0 letters.</span>
-			<button onclick="createPyramidFromText()">Create Pyramid</button>
 		</div>
 		
-		<div>
+		<div class="right">
 			<p class="result" id="result1"></p>	
-		</div>	
+		</div>
+
+		<div class="bottom">
+			<button onclick="createPyramidFromText()">Create Pyramid</button>
+		</div>
 	</div>
+
+	<!-- Toy #2: L337 converter -->
+	<div class="toy">
+		<h1>Toy 2: L337 Converter</h1>
+		<p>Upgrade your text into L337!</p>
+
+		<div class="left">
+			<textarea id="input2" placeholder="Enter a text."></textarea>
+		</div>
+		
+		<div class="right">
+			<p class="result" id="result2"></p>	
+		</div>
+
+		<div class="bottom">
+			<button onclick="convertIntoLeet()">Convert into L337</button>
+		</div>
+	</div>
+
+	<footer>Made for fun and learning @ Bruno Ribeiro</footer>
 
 </body>
 </html>
