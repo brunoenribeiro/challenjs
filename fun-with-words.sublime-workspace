@@ -1,0 +1,548 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"backgro",
+				"background-size\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"random",
+				"randomid"
+			],
+			[
+				"transition",
+				"transition-property\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"crea",
+				"createReactClass"
+			],
+			[
+				"css",
+				"cssshrink"
+			],
+			[
+				"u",
+				"uglify"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"_ren",
+				"_renderSearch"
+			],
+			[
+				"_sear",
+				"_searchData"
+			],
+			[
+				"_render",
+				"_renderSearch"
+			],
+			[
+				"_rend",
+				"_renderToolbar"
+			],
+			[
+				"row",
+				"rowid"
+			],
+			[
+				"cell",
+				"cellIndex"
+			],
+			[
+				"sort",
+				"sortby"
+			],
+			[
+				"Rea",
+				"React"
+			],
+			[
+				"log",
+				"logMixin"
+			],
+			[
+				"React",
+				"ReactDOM"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"story",
+				"story_screen_bg"
+			],
+			[
+				"game",
+				"game-element-details"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"bg_im",
+				"bg_image_params"
+			],
+			[
+				"start",
+				"start_screen_bg"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"company",
+				"company_name"
+			],
+			[
+				"con",
+				"contact_first_name"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"un",
+				"unless\tunless … end"
+			],
+			[
+				"chapter",
+				"chapter_screen_bgm"
+			],
+			[
+				"table-",
+				"table-cell\tdisplay"
+			],
+			[
+				"padding-",
+				"padding-bottom\tproperty"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"r",
+				"rgba()\tbackground-color"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			],
+			[
+				"ease",
+				"ease-in-out\tanimation-timing-function"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"fla",
+				"float\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"obje",
+				"object-fit\tproperty"
+			],
+			[
+				"al",
+				"align-self\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"data",
+				"data_missing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Projetos/Portfolio/github/fun-with-words"
+	],
+	"file_history":
+	[
+		"/E/Projetos/Portfolio/Remake-Site-Hops/skol-remake/www/index.html",
+		"/E/Projetos/Portfolio/Remake-Site-Hops/skol-remake/www/css/style.css",
+		"/E/Projetos/Portfolio/Remake-Site-Hops/skol-hops/www/css/style.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/js/source/discover.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/scripts/build.sh",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/whinepad-sublime.sublime-project",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/css/components/Button.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/js/source/components/Button.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/js/source/components/Suggest.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/js/source/app.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/index.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/js/source/components/Excel.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/discovery.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/js/build/discover.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/bundle.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/css/components/Excel.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/js/build/app.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/scripts/build.sh",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-4/jsx/04.jsx.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/scripts/deploy.sh",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/__deployme/bundle.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/__deployme/bundle.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/bundle.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad v0.0.1/js/source/components/Logo.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-6/whinepad/scripts/deploy.sh",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/js/source/app.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/js/source/components/Logo.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/index.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/css/app.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/css/components/Logo.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/bundle.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/scripts/build.sh",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/scripts/deploy.sh",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/scripts/__deployme/bundle.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/js/source/components/Component.js",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-5/liveproject/css/components/Component.css",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-3/spreadsheet/03.spreadsheet.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-1/helloworld/01.01.hello.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-2/lettercounter/02.lettercounter.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-2/mycomponents/01.01.hello.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-2/mycomponents/mycomponents.html",
+		"/E/Projetos/Primeiros-Passos-com-React/Capitulo-2/mycomponents/mycomponents",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/game_assets_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/chapters/new.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/stories/show.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/chapters_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/chapters/edit.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/scenes/new.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/game_assets/index.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/games/index.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/stories/new.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/stories/edit.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/layouts/application.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/games/show.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/stories_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/assets/stylesheets/application.css",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/shared/_gamedetails.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/game_images/edit.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/config/locales/en.yml",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/uploaders/image_uploader.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180826234947_create_game_asset_types.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/config/routes.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/game_images_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/seeds.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180826235013_create_game_images.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180826234649_drop.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/games/edit.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/games_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/games/new.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/assets/stylesheets/games.scss",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/assets/stylesheets/bg_image.scss",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/game_image.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/logo_images_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/bg_images_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/seeds - Copia.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/logo_image.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/game.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180826221836_create_logo_images.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/chapters/show.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/bg_image.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/assets/index.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/assets_controller.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/views/home/index.html.erb",
+		"/E/Projetos/Moneyflow/moneyflow/app/views/budgets/new.html.erb",
+		"/E/Projetos/Moneyflow/moneyflow/app/controllers/budgets_controller.rb",
+		"/E/Projetos/Moneyflow/moneyflow/config/routes.rb",
+		"/E/Projetos/Moneyflow/moneyflow/db/migrate/20180813003818_create_budgets.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/controllers/clients_controller.rb",
+		"/E/Projetos/Moneyflow/moneyflow/db/schema.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/views/clients/edit.html.erb",
+		"/E/Projetos/Moneyflow/moneyflow/app/views/clients/new.html.erb",
+		"/E/Projetos/Moneyflow/moneyflow/db/migrate/20180813003801_create_clients.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/creators_controller.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/controllers/home_controller.rb",
+		"/E/Projetos/Moneyflow/moneyflow/db/migrate/20180813003825_create_projects.rb",
+		"/E/Projetos/Moneyflow/moneyflow/db/migrate/20180813003751_create_users.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/budget.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/budget_entry.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/user.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/budget_entry_type.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/client.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/expenditure.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/expenditure_type.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/project.rb",
+		"/E/Projetos/Moneyflow/moneyflow/db/migrate/20180813004250_create_teams.rb",
+		"/E/Projetos/Moneyflow/moneyflow/db/migrate/20180813003901_create_budget_entries.rb",
+		"/E/Projetos/Moneyflow/moneyflow/app/models/team.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/application_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/creators/new.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/sessions_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/Gemfile",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/sessions/new.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180809024814_add_image_to_game.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180731023054_create_games.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180809024516_add_image_to_game.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180807044813_users_to_creators.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/creator.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/users/new.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/scenes/edit.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/users/show.html.erb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/users_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180807022110_create_users.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/user.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180731023102_create_stories.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/scenes_controller.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180731023109_create_chapters.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180731023116_create_scenes.rb",
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/scene.rb"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 31.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fun-with-words.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

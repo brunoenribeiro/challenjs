@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fun With Words!</title>
+	<script type="text/javascript" src="./js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+	<div class="header">
+		<div>
+			<h1>Fun with words!</h1>
+			<p>Small toys made with JS</p>
+		</div>
+	</div>
+	
+
+	<div class="toy">
+		<h1>Toy 1: Word Pyramid</h1>
+		<p>Create a pyramid using a word with odd ammount of letters!</p>
+
+		<div>
+			<textarea id="input1" placeholder="Input a word." onkeyup="letterCount()"></textarea><br>
+			<span class="lettercount" id="lettercount1">0 letters.</span>
+			<button onclick="createPyramidFromText()">Create Pyramid</button>
+		</div>
+		
+		<div>
+			<p class="result" id="result1"></p>	
+		</div>	
+	</div>
+
+</body>
+</html>
