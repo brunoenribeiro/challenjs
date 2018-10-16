@@ -71,6 +71,32 @@ button:hover{
 	text-align: center;
 }
 
+footer ul {
+	margin-top: 10px;
+}
+
+footer li {
+	display: table-cell;
+	font-size: 12px;
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+footer li img {
+	height: 20px;
+	vertical-align: middle;
+	border: 5px solid white;
+}
+
+footer span {
+	vertical-align: middle;	
+}
+
 @media only screen and (max-width: 540px) {
 	body {
 		margin: 20px;
