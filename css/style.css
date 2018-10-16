@@ -34,7 +34,6 @@ button:hover{
 .challenge {
 	margin: 40px 0;
 	max-width: 540px;
-	min-width: 480px; 
 }
 
 .challenge .description {
@@ -65,11 +64,18 @@ button:hover{
 	border-radius: 5px;
 	font-size: 12px;
 	padding: 15px;
+}
+
+.center-text {
 	text-align: center;
 }
 
 @media only screen and (max-width: 540px) {
 	body {
-		margin: 30px 50px;
+		margin: 20px;
+	}
+
+	header {
+		margin: 20px 0;
 	}
 }

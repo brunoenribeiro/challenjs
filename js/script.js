@@ -58,11 +58,11 @@ const convertIntoLeet = () => {
 		"s": "$",
 		"t": "7",
 		"u": "(_)",
-		"v": "\\/",
-		"w": "'//",
+		"v": "v",
+		"w": "w",
 		"x": "%",
-		"y": "'/",
-		"z": "\"/_"
+		"y": "y",
+		"z": "z"
 
 	}
 	let result = "";
@@ -71,8 +71,6 @@ const convertIntoLeet = () => {
 	Array.from(input).forEach(function(c){
 		if (dictionary.hasOwnProperty(c.toLowerCase())){ //.toLowerCase() avoids duplicating keys in uppercase.
 			result += dictionary[c.toLowerCase()];
-		} else if (c === " ") {
-			result += "<br>";
 		} else {
 			result += c;
 		}
