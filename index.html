@@ -8,47 +8,40 @@
 <body>
 
 	<header>
-		<div>
-			<h1>Challen.js</h1>
-			<p>Challenges made with pure JavaScript</p>
-		</div>
+		<h1>Challen.js</h1>
+		<p>Challenges made with pure JavaScript</p>
 	</header>
 	
-	<!-- Toy #1: Word Pyramid -->
-	<div class="toy">
-		<h1>Toy 1: Word Pyramid</h1>
-		<p>Create a pyramid using a word with odd ammount of letters!</p>
-
-		<div class="left">
-			<textarea id="input1" placeholder="Input a word." onkeyup="letterCount()"></textarea><br>
-			<span class="lettercount" id="lettercount1">0 letters.</span>
-		</div>
+	<!-- challenge #1: Word Pyramid -->
+	<div class="challenge">
 		
-		<div class="right">
-			<p class="result" id="result1"></p>	
+		<div class="description">
+			<h2>Challenge 1: Word Triangle</h2>
+			<p>Create a triangle using a word with odd number of letters!</p>
 		</div>
 
-		<div class="bottom">
-			<button onclick="createPyramidFromText()">Create Pyramid</button>
+		<div class="user-input">
+			<textarea id="input1" placeholder="Enter a word." onkeyup="letterCount()"></textarea>
+			<button onclick="createPyramidFromText()">Create Triangle</button><br>
 		</div>
+		<span class="lettercount" id="lettercount1">0 letters.</span>
+		<p class="result" id="result1"></p>
+
 	</div>
 
-	<!-- Toy #2: L337 converter -->
-	<div class="toy">
-		<h1>Toy 2: L337 Converter</h1>
-		<p>Upgrade your text into L337!</p>
-
-		<div class="left">
-			<textarea id="input2" placeholder="Enter a text."></textarea>
-		</div>
-		
-		<div class="right">
-			<p class="result" id="result2"></p>	
+	<!-- challenge #2: L337 converter -->
+	<div class="challenge">
+		<div class="description">
+			<h2>Challenge 2: L337 Translator</h2>
+			<p>Translate your text to L337!</p>
 		</div>
 
-		<div class="bottom">
-			<button onclick="convertIntoLeet()">Convert into L337</button>
+		<div class="user-input">
+			<textarea id="input2" placeholder="Enter a lame text."></textarea>
+			<button onclick="convertIntoLeet()">M4k3 !7 c()()L3r</button>
 		</div>
+		<p class="result" id="result2"></p>	
+
 	</div>
 
 	<footer>Made for fun and learning @ Bruno Ribeiro</footer>

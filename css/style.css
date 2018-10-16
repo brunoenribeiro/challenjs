@@ -7,119 +7,69 @@
 }
 
 body{
-	margin: 20px;
+	margin: 60px 100px;
 }
 
-h1{
-	font-family: "Raleway", sans-serif;
-}
-
-header{
-	height: 260px;
-	background-color: cornflowerblue;
-	text-align: center;
-	display: flex;
-	display: -webkit-flex;
-	align-items: center;
-	margin: 0 auto;
-	border-radius: 3px;
-}
-
-header div{
-	margin: 0 auto;
+header {
+	margin: 60px 0;
 }
 
 header h1{
-	font-family: "Niramit", sans-serif;
-	text-transform: uppercase;
-	font-size: 36px;
+	font-size: 64px;
+	font-family: 'Raleway', sans-serif;
 }
 
-header p{
-}
-
-.toy{
-	width: 720px;
-	margin: 30px auto;
-	clear: both;
-	text-align: center;
-}
-
-.toy .left{
-	float: left;
-	margin: 10px 0;
-	text-align: left;
-}
-
-.toy .right{
-	float: right;
-	margin: 10px 0;
-}
-
-.toy .bottom{
-	clear: both;
-	width: 200px;
-	margin: 0 auto;
-}
-
-.toy textarea{
-	width: 340px;
-	height: 140px;
-	padding: 6px;
-	border-radius: 3px;
-}
-
-.toy .lettercount{
-	font-size: 11px;
-	display: block;
-}
-
-.toy .result{
-	width: 340px;
-	height: 140px;
+button {
+	padding: 5px 15px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 5px;
 	border: 1px solid;
-	text-align: center;
-	vertical-align: center;
-	padding: 6px;
-	border-radius: 3px;
-	margin: 0;
-	overflow: hidden;
 }
 
-.toy .result:hover{
-	overflow: scroll;	
-}
-
-.toy .action{
-	width: 200px;
-	margin: 10px auto;
-}
-
-.toy button{
-	padding: 6px;
-	background-color: cornflowerblue;
+button:hover{
+	background-color: black;
 	color: white;
-	border: none;
+}
+
+.challenge {
+	margin: 40px 0;
+	max-width: 540px;
+	min-width: 480px; 
+}
+
+.challenge .description {
+	margin: 12px 0;
+}
+
+.challenge .user-input {
+	display: flex;
+}
+
+.challenge .user-input textarea {
+	width: 200px;
+	padding-top: 20px;
+	padding-left: 5px;
+	margin-right: 12px;
+	border-radius: 5px;
+}
+
+.challenge .lettercount {
+	font-size: 12px;
+}
+
+.challenge .result {
+	margin: 12px 0;
+	width: 100%;
+	height: 120px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 15px;
 	text-align: center;
-	text-decoration: none;
-	border-radius: 3px;
-	margin: 6px 0;
 }
 
-.float-left{
-	float: left;
-}
-
-.float-right{
-	float: right;
-}
-
-footer{
-	height: 60px;
-	background-color: cornflowerblue;
-	text-align: center;
-	margin: 0 auto;
-	border-radius: 3px;
-	font-size: 10px;
-	line-height: 60px;
+@media only screen and (max-width: 540px) {
+	body {
+		margin: 30px 50px;
+	}
 }

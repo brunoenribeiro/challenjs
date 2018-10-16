@@ -3,13 +3,13 @@ const createPyramidFromText = () => {
 	const input = document.getElementById("input1").value;
 
 	if (!input) {
-		document.getElementById("result1").innerHTML = "Please type a word.";
+		document.getElementById("result1").innerHTML = "Can't create a word triangle without a word :P";
 		return false;
 	} else if (input.indexOf(" ") !== -1){
 		document.getElementById("result1").innerHTML = "Just one word, please.";
 		return false;
 	} else if (input.length % 2 === 0){
-		document.getElementById("result1").innerHTML = "Please enter a word with an odd ammount of letters";
+		document.getElementById("result1").innerHTML = "Please enter a word with an odd number of letters";
 		return false;
 	}
 
@@ -39,22 +39,22 @@ const convertIntoLeet = () => {
 	const dictionary = {
 		"a": "4",
 		"b": "6",
-		"c": "( ",
+		"c": "c",
 		"d": "[)",
 		"e": "3",
 		"f": "]=",
-		"g": "&",
+		"g": "g",
 		"h": "#",
 		"i": "!",
 		"j": ",|",
-		"k": "]{",
+		"k": "k",
 		"l": "L",
-		"m": "(\\/)",
-		"n": "(\\)",
+		"m": "m",
+		"n": "n",
 		"o": "( )",
 		"p": "P",
 		"q": "Q",
-		"r": "9",
+		"r": "r",
 		"s": "$",
 		"t": "7",
 		"u": "(_)",
