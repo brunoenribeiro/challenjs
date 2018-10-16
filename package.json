@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunoenribeiro/fun-with-words.git"
+    "url": "git+https://github.com/brunoenribeiro/challenjs.git"
   },
   "keywords": [
     "toys",
@@ -19,9 +19,9 @@
   "author": "Bruno Ribeiro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brunoenribeiro/fun-with-words/issues"
+    "url": "https://github.com/brunoenribeiro/challenjs/issues"
   },
-  "homepage": "https://github.com/brunoenribeiro/fun-with-words#readme",
+  "homepage": "https://github.com/brunoenribeiro/challenjs#readme",
   "dependencies": {
     "npm": "^6.4.1"
   }
