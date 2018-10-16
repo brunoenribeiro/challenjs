@@ -1,28 +1,32 @@
 {
-  "name": "fun-with-words",
+  "name": "challenjs",
   "version": "1.0.0",
-  "description": "Small toys made with JS",
+  "description": "Challenges made with pure JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brunoenribeiro/challenjs.git"
   },
   "keywords": [
-    "toys",
-    "text",
+    "challenges",
+    "JavaScript",
     "js",
-    "strings"
+    "exercises"
   ],
   "author": "Bruno Ribeiro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brunoenribeiro/challenjs/issues"
   },
-  "homepage": "https://github.com/brunoenribeiro/challenjs#readme",
+  "homepage": "https://brunoenribeiro.github.io/challenjs",
   "dependencies": {
     "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
