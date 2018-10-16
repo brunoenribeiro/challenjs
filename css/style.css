@@ -52,8 +52,9 @@ button:hover{
 	border-radius: 5px;
 }
 
-.challenge .lettercount {
+.detail {
 	font-size: 12px;
+	margin: 10px 0;
 }
 
 .challenge .result {
