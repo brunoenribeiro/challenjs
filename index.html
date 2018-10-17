@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>Challen.js</title>
-	<script type="text/javascript" src="./js/script.js"></script>
+	<script type="text/javascript" src="./js/utils.js"></script>
+	<script type="text/javascript" src="./js/wordfun.js"></script>
+	<script type="text/javascript" src="./js/mathfun.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
@@ -22,8 +24,8 @@
 		</div>
 
 		<div class="user-input">
-			<textarea id="input1" placeholder="Enter a word." onkeyup="letterCount()"></textarea>
-			<button onclick="createPyramidFromText()">Create Triangle</button><br>
+			<textarea id="pyramid-input" placeholder="Enter a word." onkeyup="Utils.letterCount()"></textarea>
+			<button onclick="WordFun.createPyramidFromText()">Create Triangle</button><br>
 		</div>
 		<span class="detail" id="lettercount1">0 letters.</span>
 		<p class="result center-text" id="result1"></p>
@@ -39,7 +41,7 @@
 
 		<div class="user-input">
 			<textarea id="input2" placeholder="Enter a lame text."></textarea>
-			<button onclick="convertIntoLeet()">M4k3 !7 c()()L3r</button>
+			<button onclick="WordFun.convertIntoLeet()">M4k3 !7 c()()L3r</button>
 		</div>
 		<p class="result" id="result2"></p>	
 
