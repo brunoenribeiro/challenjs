@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"paddin",
+				"padding\tproperty"
+			],
+			[
+				"list-style",
+				"list-style-type\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
 				"font-",
-				"font-weight\tproperty"
+				"font-family\tproperty"
 			],
 			[
 				"to",
@@ -26,10 +46,6 @@
 			[
 				"margin",
 				"margin\tproperty"
-			],
-			[
-				"font",
-				"font-family\tproperty"
 			],
 			[
 				"align",
@@ -58,10 +74,6 @@
 			[
 				"back",
 				"background-color\tproperty"
-			],
-			[
-				"text",
-				"text-transform\tproperty"
 			],
 			[
 				"pa",
@@ -154,10 +166,6 @@
 			[
 				"React",
 				"ReactDOM"
-			],
-			[
-				"paddin",
-				"padding-right\tproperty"
 			],
 			[
 				"mar",
@@ -296,10 +304,10 @@
 	"buffers":
 	[
 		{
-			"file": "/E/Projetos/Angular/tour-heroes/src/app/app.component.ts",
+			"file": "/E/Projetos/Portfolio/github/challenjs-angular/package.json",
 			"settings":
 			{
-				"buffer_size": 215,
+				"buffer_size": 1323,
 				"line_ending": "Unix"
 			}
 		}
@@ -340,9 +348,17 @@
 	},
 	"expanded_folders":
 	[
+		"/E/Projetos/Portfolio/github/challenjs",
+		"/E/Projetos/Portfolio/github/challenjs/css",
+		"/E/Projetos/Portfolio/github/challenjs/imgs",
+		"/E/Projetos/Portfolio/github/challenjs/js"
 	],
 	"file_history":
 	[
+		"/E/Projetos/Portfolio/github/challenjs/js/script.js",
+		"/E/Projetos/Portfolio/github/challenjs/css/style.css",
+		"/E/Projetos/Portfolio/github/challenjs/index.html",
+		"/E/Projetos/Angular/tour-heroes/src/app/app.component.ts",
 		"/E/Projetos/Portfolio/github/fun-with-words/js/script.js",
 		"/E/Projetos/Portfolio/github/fun-with-words/css/style.css",
 		"/E/Projetos/Portfolio/github/fun-with-words/index.html",
@@ -466,11 +482,7 @@
 		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/users/new.html.erb",
 		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/scenes/edit.html.erb",
 		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/users/show.html.erb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/users_controller.rb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180807022110_create_users.rb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/user.rb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180731023102_create_stories.rb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/scenes_controller.rb"
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/users_controller.rb"
 	],
 	"find":
 	{
@@ -488,6 +500,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"challenge",
+			"toy"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -510,11 +524,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/E/Projetos/Angular/tour-heroes/src/app/app.component.ts",
+					"file": "/E/Projetos/Portfolio/github/challenjs-angular/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 215,
+						"buffer_size": 1323,
 						"regions":
 						{
 						},
@@ -527,7 +541,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -620,7 +634,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 248.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

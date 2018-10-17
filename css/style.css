@@ -6,17 +6,18 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+/* Mobile */
+
+/* Desktop */
+
 body{
 	margin: 60px 100px;
 }
 
-header {
-	margin: 60px 0;
-}
-
 header h1{
-	font-size: 64px;
+	font-size: 4em;
 	font-family: 'Raleway', sans-serif;
+	color: #DD0031;
 }
 
 button {
@@ -31,13 +32,26 @@ button:hover{
 	color: white;
 }
 
+.personal-container {
+	background-color: black;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: white;
+	padding: 20px;
+}
+
+.challenge-container {
+	float: left;
+}
+
 .challenge {
-	margin: 40px 0;
+	margin-bottom: 40px;
 	max-width: 540px;
 }
 
 .challenge .description {
-	margin: 12px 0;
+	margin-bottom: 12px;
 }
 
 .challenge .user-input {
@@ -53,7 +67,7 @@ button:hover{
 }
 
 .detail {
-	font-size: 12px;
+	font-size: 1em;
 	margin: 10px 0;
 }
 
@@ -63,7 +77,7 @@ button:hover{
 	height: 120px;
 	border: 1px solid grey;
 	border-radius: 5px;
-	font-size: 12px;
+	font-size: 1em;
 	padding: 15px;
 }
 
@@ -71,30 +85,29 @@ button:hover{
 	text-align: center;
 }
 
+footer {
+	clear: both;
+	margin-top: 60px; 
+}
+
 footer ul {
 	margin-top: 10px;
 }
 
 footer li {
-	display: table-cell;
-	font-size: 12px;
+	font-size: 1em;
 	list-style-type: none;
 	padding-right: 10px;
 }
 
 footer a {
 	text-decoration: none;
-	vertical-align: middle;
+	color: white; 
 }
 
 footer li img {
 	height: 20px;
-	vertical-align: middle;
-	border: 5px solid white;
-}
-
-footer span {
-	vertical-align: middle;	
+	filter: invert(100%);
 }
 
 @media only screen and (max-width: 540px) {
@@ -104,5 +117,11 @@ footer span {
 
 	header {
 		margin: 20px 0;
+	}
+
+	header h1{
+		font-size: 6em;
+		font-family: 'Raleway', sans-serif;
+		color: #DD0031;
 	}
 }
