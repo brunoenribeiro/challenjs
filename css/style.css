@@ -7,121 +7,167 @@
 }
 
 /* Mobile */
-
-/* Desktop */
-
-body{
-	margin: 60px 100px;
-}
-
-header h1{
-	font-size: 4em;
-	font-family: 'Raleway', sans-serif;
-	color: #DD0031;
-}
-
-button {
-	padding: 5px 15px;
-	background-color: rgba(0,0,0,0);
-	border-radius: 5px;
-	border: 1px solid;
-}
-
-button:hover{
-	background-color: black;
-	color: white;
+body {
+	margin: 6vw;
+	font-size: 4vw;
 }
 
 .personal-container {
 	background-color: black;
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 20px;
 	color: white;
-	padding: 20px;
+	padding: 4vw;
+	margin-bottom: 6vw; 
 }
 
-.challenge-container {
-	float: left;
+a{
+	color: white;
+	text-decoration: none;
 }
 
-.challenge {
-	margin-bottom: 40px;
-	max-width: 540px;
+h1{
+	font-size: 15vw;
+	font-family: 'Raleway', sans-serif;
+	margin: 2vw 0;
 }
 
-.challenge .description {
-	margin-bottom: 12px;
+h2{
+	font-size: 8vw;
+	font-family: 'Raleway', sans-serif;
 }
 
-.challenge .user-input {
-	display: flex;
-}
-
-.challenge .user-input textarea {
-	width: 200px;
-	padding-top: 20px;
-	padding-left: 5px;
-	margin-right: 12px;
-	border-radius: 5px;
-}
-
-.detail {
-	font-size: 1em;
-	margin: 10px 0;
-}
-
-.challenge .result {
-	margin: 12px 0;
-	width: 100%;
-	height: 120px;
-	border: 1px solid grey;
-	border-radius: 5px;
-	font-size: 1em;
-	padding: 15px;
-}
-
-.center-text {
-	text-align: center;
-}
-
-footer {
-	clear: both;
-	margin-top: 60px; 
-}
-
-footer ul {
-	margin-top: 10px;
+header p,.detail, footer p {
+	font-size: 4vw;
 }
 
 footer li {
-	font-size: 1em;
-	list-style-type: none;
-	padding-right: 10px;
-}
-
-footer a {
-	text-decoration: none;
-	color: white; 
+	display: inline-block;
+	margin-right: 2vw;
+	font-size: 4vw;
 }
 
 footer li img {
-	height: 20px;
+	width: 30px;
 	filter: invert(100%);
+	margin-right: 2vw;
 }
 
-@media only screen and (max-width: 540px) {
-	body {
-		margin: 20px;
-	}
+textarea, button {
+	font-size: 6vw;
+}
 
-	header {
-		margin: 20px 0;
+.challenge .result {
+	margin: 6vw 0;
+	width: 100%;
+	height: 10vw;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 2vw;
+	padding: 2vw;
+}
+
+/* Desktop and Tablets */
+@media only screen and (-webkit-device-pixel-ratio:2) and (min-width: 540px){
+	body{
+		margin: 60px 100px;
 	}
 
 	header h1{
-		font-size: 6em;
+		font-size: 4em;
 		font-family: 'Raleway', sans-serif;
 		color: #DD0031;
 	}
+
+	button {
+		padding: 5px 15px;
+		background-color: rgba(0,0,0,0);
+		border-radius: 5px;
+		border: 1px solid;
+	}
+
+	button:hover{
+		background-color: black;
+		color: white;
+	}
+
+	.personal-container {
+		background-color: black;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		color: white;
+		padding: 20px;
+	}
+
+	.challenge-container {
+		float: left;
+	}
+
+	.challenge {
+		margin-bottom: 40px;
+		max-width: 540px;
+	}
+
+	.challenge .description {
+		margin-bottom: 12px;
+	}
+
+	.challenge .user-input {
+		display: flex;
+	}
+
+	.challenge .user-input textarea {
+		width: 200px;
+		padding-top: 20px;
+		padding-left: 5px;
+		margin-right: 12px;
+		border-radius: 5px;
+	}
+
+	.detail {
+		font-size: 1em;
+		margin: 10px 0;
+	}
+
+	.challenge .result {
+		margin: 12px 0;
+		width: 100%;
+		height: 120px;
+		border: 1px solid grey;
+		border-radius: 5px;
+		font-size: 1em;
+		padding: 15px;
+	}
+
+	.center-text {
+		text-align: center;
+	}
+
+	footer {
+		clear: both;
+		margin-top: 60px; 
+	}
+
+	footer ul {
+		margin-top: 10px;
+	}
+
+	footer li {
+		font-size: 1em;
+		list-style-type: none;
+		padding-right: 10px;
+	}
+
+	footer a {
+		text-decoration: none;
+		color: white; 
+	}
+
+	footer li img {
+		height: 20px;
+		filter: invert(100%);
+	}
+}
+
+@media only screen and (-webkit-device-pixel-ratio:2) and (min-width: 1024px){
+
 }
