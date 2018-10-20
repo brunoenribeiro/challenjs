@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"marin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"fil",
+				"filter\tproperty"
+			],
+			[
 				"paddin",
 				"padding\tproperty"
 			],
@@ -303,14 +311,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/E/Projetos/Portfolio/github/challenjs-angular/package.json",
-			"settings":
-			{
-				"buffer_size": 1323,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -355,9 +355,13 @@
 	],
 	"file_history":
 	[
-		"/E/Projetos/Portfolio/github/challenjs/js/script.js",
+		"/E/Projetos/Portfolio/github/challenjs/js/mathfun.js",
+		"/E/Projetos/Portfolio/github/challenjs/js/utils.js",
+		"/E/Projetos/Portfolio/github/challenjs/js/wordfun.js",
+		"/E/Projetos/Portfolio/github/challenjs-angular/src/app/app.component.css",
 		"/E/Projetos/Portfolio/github/challenjs/css/style.css",
 		"/E/Projetos/Portfolio/github/challenjs/index.html",
+		"/E/Projetos/Portfolio/github/challenjs/js/script.js",
 		"/E/Projetos/Angular/tour-heroes/src/app/app.component.ts",
 		"/E/Projetos/Portfolio/github/fun-with-words/js/script.js",
 		"/E/Projetos/Portfolio/github/fun-with-words/css/style.css",
@@ -478,11 +482,7 @@
 		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180731023054_create_games.rb",
 		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180809024516_add_image_to_game.rb",
 		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/db/migrate/20180807044813_users_to_creators.rb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/creator.rb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/users/new.html.erb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/scenes/edit.html.erb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/views/users/show.html.erb",
-		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/controllers/users_controller.rb"
+		"/E/Projetos/Paragraph/ParagraphEngine2/web/paragraph-admin/app/models/creator.rb"
 	],
 	"find":
 	{
@@ -500,6 +500,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font-size",
 			"challenge",
 			"toy"
 		],
@@ -519,37 +520,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/E/Projetos/Portfolio/github/challenjs-angular/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

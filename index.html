@@ -2,73 +2,63 @@
 <html>
 <head>
 	<title>Challen.js</title>
-	<script type="text/javascript" src="./js/script.js"></script>
+	<script type="text/javascript" src="./js/utils.js"></script>
+	<script type="text/javascript" src="./js/wordfun.js"></script>
+	<script type="text/javascript" src="./js/mathfun.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-
-	<meta name="HandheldFriendly" content="true">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	
 </head>
 <body>
 
-	<!-- Left Column: Personal data -->
-	<div class="personal-container">
-		<header>
-			<h1>Challen.js</h1>
-			<p>Challenges made with pure JavaScript</p>
-			<p class="detail">#html5 #css #js #git #npm #node.js</p>
-		</header>
-
-		<footer>
-			<p>Made for fun and learning @ Bruno Ribeiro</p>
-			<ul>
-				<li><img src="./imgs/gmail.png"/><span>brunoenribeiro@gmail.com</span></li>
-				<li>
-					<a href="https://github.com/brunoenribeiro/">
-						<img src="./imgs/github.png"><span>/brunoenribeiro</span>
-					</a>
-				</li>
-				<li><a href="https://www.facebook.com/brunoenribeiro"><img src="./imgs/facebook.png"><span>/brunoenribeiro</span></a></li>
-			</ul>
-		</footer>
-
-	</div>
+	<header>
+		<h1>Challen.js</h1>
+		<p>Challenges made with pure JavaScript</p>
+		<p class="detail">#html5 #css #js #git #npm #node.js</p>
+	</header>
 	
-	<!-- Right Column: Challenges-->
-	<div class="challenge-container">
-		<!-- challenge #1: Word Pyramid -->
-		<div class="challenge">
-			
-			<div class="description">
-				<h2>Challenge 1: Word Triangle</h2>
-				<p>Create a triangle using a word with odd number of letters!</p>
-			</div>
-
-			<div class="user-input">
-				<textarea id="input1" placeholder="Enter a word." onkeyup="letterCount()"></textarea>
-				<button onclick="createPyramidFromText()">Create Triangle</button><br>
-			</div>
-			<span class="detail" id="lettercount1">0 letters.</span>
-			<p class="result center-text" id="result1"></p>
-
+	<!-- challenge #1: Word Pyramid -->
+	<div class="challenge">
+		
+		<div class="description">
+			<h2>Challenge 1: Word Triangle</h2>
+			<p>Create a triangle using a word with odd number of letters!</p>
 		</div>
 
-		<!-- challenge #2: L337 converter -->
-		<div class="challenge">
-			<div class="description">
-				<h2>Challenge 2: L337 Translator</h2>
-				<p>Translate your text to L337!</p>
-			</div>
-
-			<div class="user-input">
-				<textarea id="input2" placeholder="Enter a lame text."></textarea>
-				<button onclick="convertIntoLeet()">M4k3 !7 c()()L3r</button>
-			</div>
-			<p class="result" id="result2"></p>	
-
+		<div class="user-input">
+			<textarea id="pyramid-input" placeholder="Enter a word." onkeyup="Utils.letterCount()"></textarea>
+			<button onclick="WordFun.createPyramidFromText()">Create Triangle</button><br>
 		</div>
+		<span class="detail" id="lettercount1">0 letters.</span>
+		<p class="result center-text" id="result1"></p>
 
 	</div>
+
+	<!-- challenge #2: L337 converter -->
+	<div class="challenge">
+		<div class="description">
+			<h2>Challenge 2: L337 Translator</h2>
+			<p>Translate your text to L337!</p>
+		</div>
+
+		<div class="user-input">
+			<textarea id="input2" placeholder="Enter a lame text."></textarea>
+			<button onclick="WordFun.convertIntoLeet()">M4k3 !7 c()()L3r</button>
+		</div>
+		<p class="result" id="result2"></p>	
+
+	</div>
+
+	<footer>
+		<p>Made for fun and learning @ Bruno Ribeiro</p>
+		<ul>
+			<li><img src="./imgs/gmail.png"/><span>brunoenribeiro@gmail.com</span></li>
+			<li>
+				<a href="https://github.com/brunoenribeiro/">
+					<img src="./imgs/github.png"><span>/brunoenribeiro</span>
+				</a>
+			</li>
+			<li><a href="https://www.facebook.com/brunoenribeiro"><img src="./imgs/facebook.png"><span>/brunoenribeiro</span></a></li>
+		</ul>
+	</footer>
 
 </body>
 </html>
