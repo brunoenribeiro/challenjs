@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challen.js</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="./js/utils.js"></script>
+	<script type="text/javascript" src="./js/wordfun.js"></script>
+	<script type="text/javascript" src="./js/mathfun.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+	<header>
+		<h1>Challen<span class="red">.js</span></h1>
+		<p class="subtitle">Challenges made with vanilla JavaScript</p>
+	</header>
+
+	<div class="wrapper">
+		<!-- challenge #1: Word Pyramid -->
+		<div class="challenge">
+				
+			<div class="description">
+				<h2>Challenge 1: Word Triangle</h2>
+				<p>Create a triangle using a word with odd amount of letters!</p>
+			</div>
+
+			<textarea id="pyramid-input" placeholder="Enter a word." onkeyup="Utils.letterCount()"></textarea>
+			<button onclick="WordFun.createPyramidFromText()">Create Triangle</button><br>
+			<span class="small" id="lettercount1">0 letters.</span>
+			<p class="result center-text" id="result1"></p>
+
+		</div>
+
+		<!-- challenge #2: L337 converter -->
+		<div class="challenge">
+			<div class="description">
+				<h2>Challenge 2: L337 Translator</h2>
+				<p>Translate your text to L337!</p>
+			</div>
+
+			<textarea id="input2" placeholder="Enter a lame text."></textarea>
+			<button onclick="WordFun.convertIntoLeet()">M4k3 !7 c()()L3r</button>
+			<p class="result" id="result2"></p>	
+
+		</div>
+		
+	</div>
+
+	<footer>
+		<p class="whomadethis">Made for fun and learning.</p>
+		<ul>
+			<li><img class="icon" src="./imgs/gmail.png"/><span>brunoenribeiro@gmail.com</span></li>
+			<li>
+				<a href="https://github.com/brunoenribeiro/">
+					<img class="icon" src="./imgs/github.png"><span>/brunoenribeiro</span>
+				</a>
+			</li>
+			<li><a href="https://www.facebook.com/brunoenribeiro"><img class="icon" src="./imgs/facebook.png"><span>/brunoenribeiro</span></a></li>
+		</ul>
+	</footer>
+
+</body>
+</html>
